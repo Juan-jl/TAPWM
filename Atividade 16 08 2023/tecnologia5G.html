@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+<html lang="pt-br>
+
+<head>
+
+<title>A tecnologia 5G</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<style>
+
+@keyframes opacidade {
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
+
+body
+{
+	background-color: #e0e0e0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	animation: opacidade 1s;
+}
+.header
+{
+	background-color: #006494;
+	height: 50px;
+	word-wrap: break-word;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+}
+.tituloHeader
+{
+	margin-left: 10px;
+	width: 100%;
+	text-align: center;
+	margin-left: -5px;
+}
+.txtTitulo
+{
+	color: #ffffff;
+	font-size: 30px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	 
+}
+.posHeader
+{
+	background-color: #13293D;
+	height: 30px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+}
+.linkSum
+{
+	color: #dedcdc;
+	margin-top: 100px;
+	text-decoration: none;
+	margin-right: 2px;
+	font-size: 15px;
+	word-wrap: break-word;
+}
+.selectTemaDiv
+{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.conteudo
+{
+	//border: 1px solid #000000;
+	background-color: #ffffff;
+	width: 70%;
+	text-align: left;
+	margin-top: -45px;
+}
+.textoConteudo
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	word-wrap: break-word;
+}
+.img1Class
+{
+	width: 60%;
+	margin-top: 20px;
+}
+.linkFonte
+{
+	word-wrap: break-word;
+}
+.footer
+{
+	width: 100%;
+	height: 40px;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 15px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+}
+body.dark
+{
+	background-color: #000000;
+}
+.posHeader.dark
+{
+	background-color: #1B98E0;
+}
+.conteudo.dark
+{
+	background-color: #262626;
+	color: #ffffff;
+}
+.linkSum.dark
+{
+	color: #ffffff;
+}
+.footer.dark
+{
+	background-color: #3b3b3b;
+}
+
+@media screen and (max-width: 999px)
+        {
+			.linkSum
+			{
+				font-size: 13px;
+			}
+			.posHeader
+			{
+				height: 60px;
+			}
+        }
+		
+@media screen and (max-width: 830px)
+        {
+			.linkSum
+			{
+				font-size: 12px;
+			}
+			.texto
+			{
+				font-size: 20px;
+			}
+        }
+@media screen and (max-width: 806px)
+        {
+			.conteudo
+			{
+				margin-top: -10px;
+				width: 90%;
+			}
+        }
+@media screen and (max-width: 335px)
+        {
+			.conteudo
+			{
+				margin-top: -10px;
+			}
+			.footer
+			{
+				font-size: 12px;
+			}
+        }		
+
+
+</style>
+
+<body id="bodyId">
+
+<div class="header">
+
+<div class="tituloHeader">
+<label class="txtTitulo">A tecnologia 5G</label>
+</div>
+
+</div>
+
+<div class="posHeader" id="posHeaderId">
+
+<div class="linksHeader">
+<a class="linkSum" href="#intro">|INTRODUÇÃO|</a>
+<a class="linkSum" href="#cf5g">|COMO FUNCIONA O 5G|</a>
+<a class="linkSum" href="#qbr5g">|QUAIS OS BENEFÍCIOS DAS REDES 5G|</a>
+<a class="linkSum" href="#de4g5g">|DIFERENÇAS ENTRE O 4G E O 5G|</a>
+<a class="linkSum" href="#conc">|CONCLUSÃO|</a>
+
+</div>
+</div>
+
+<div class="selectTemaDiv">
+<select class="selectTema" id="slctTemaId" oninput="alterarTema()">
+<option value="1">Tema claro</option>
+<option value="2">Tema escuro</option>
+</select>
+</div>
+
+<center>
+<div class="conteudo" id="conteudoId">
+<div class="textoConteudo">
+ <p>
+ 
+	<center><img class="img1Class" src="img1.webp" alt="5G"></center>
+ 
+<H2 id="intro">INTRODUÇÃO</H2>
+<label class="texto">
+A tecnologia de quinta geração (5G) representa o próximo avanço na conectividade móvel, trazendo consigo um alcance ampliado e uma velocidade superior que promete uma revolução substancial. A nova infraestrutura 5G possibilitará a interligação de dispositivos e aparelhos, abrindo portas para inovações em produtos e aplicações domésticas, contribuindo para a evolução da Internet das Coisas (IoT).
+
+Essa tecnologia capacitará a integração de uma diversidade de outros aparelhos, seja em ambientes residenciais ou corporativos.
+
+A inovadora tecnologia de internet móvel 5G viabilizará sua utilização em smartphones e dispositivos que normalmente não estão conectados a redes Wi-Fi ou de cabo.
+
+A posse de um dispositivo compatível com 5G trará vantagens como um desempenho otimizado para downloads e uploads, uma notável ampliação na taxa de transferência de dados por segundo e uma considerável economia, chegando a até 90% no consumo de energia dos aparelhos.
+
+Esses benefícios decorrem da agilidade e eficiência da tecnologia, que processa informações de maneira muito mais veloz.
+</label>
+<H2 id="cf5g">COMO FUNCIONA O 5G</H2>
+<label class="texto">
+A capacidade de transmissão de dados da internet 5G é extremamente avançada. Milhares de equipamentos podem estar interconectados numa mesma rede e serem operados remotamente, de forma segura. Em uma rede wifi não temos essa capacidade para suportar tantas conexões, e é o que faz com que o 5G seja muito atraente para o desenvolvimento da Internet das Coisas e a evolução da Indústria 4.0.
+
+A principal diferença do 5G para o 4G é de fato a velocidade na transferência de informações, chamada de latência.
+
+Um aparelho com 4G demora até 54 milissegundos para processar um download de vídeo de 1 Gigabyte, por exemplo. Com o 5G, a expectativa é que este intervalo seja entre 1 e 2 milissegundos para processar até 20 Gigabytes, o que significa uma velocidade até 20 vezes maior para os usuários.
+
+Outro diferencial do 5G é a quantidade de dispositivos que podem estar conectados. No 4G a cobertura é de 10 mil aparelhos por quilômetro, enquanto no 5G a rede de cobertura pode ser de até 1 milhão de aparelhos por quilômetro.
+
+Em um país continental como o Brasil esse aumento do raio de cobertura significa alcance da internet em áreas rurais e industriais que hoje estão descobertas de sinal.
+</label>
+<center><img class="img1Class" src="img2.jpg" alt="img2"></center>
+<h2 id="qbr5g">QUAIS OS BENEFÍCIOS DAS REDES 5G</h2>
+<label class="texto">
+Para além das vantagens individuais, a progressão trazida pela implementação da infraestrutura 5G trará um impulso na velocidade de conectividade à banda larga para dispositivos, o que implica que um número maior de pessoas poderá estar online sem comprometer a qualidade do sinal.
+
+Esta aprimorada conectividade possibilita, igualmente, a interligação de diversos aparelhos no âmbito doméstico ou empresarial, permitindo às famílias aceder a produtos inovadores e utilidades para o lar que ainda não são usuais no país devido à limitada capacidade de ligação.
+
+A rede 5G também oferece a perspectiva de facilitar o estudo e trabalho à distância com uma qualidade superior em videoconferências, a prestação de cuidados médicos à distância, a otimização da mobilidade urbana e o desenvolvimento de cidades inteligentes
+</label>
+
+<h2 id="de4g5g">DIFERENÇAS ENTRE O 4G E O 5G</h2>
+<label class="texto">
+<ul>
+<li>
+O 5G é mais rápido que o 4G, com maior capacidade de tráfego de bits por segundo pela rede. Com as novas velocidades de upload e download, será possível baixar filmes em segundos, em vez de minutos.
+</li>
+<li>
+O 5G é mais responsivo do que o 4G, com latência mais baixa, o que se refere ao tempo levado pelas comunicações entre dispositivo e rede. Já que os dispositivos podem se "comunicar" com a rede mais rapidamente, você poderá acessar os dados mais rapidamente.
+</li>
+<li>
+O 5G consome menos energia do que o 4G, pois pode mudar rapidamente para o uso de baixa energia quando as redes celulares não estão em uso. Isso prolonga a vida útil da bateria do dispositivo e permite que os dispositivos não exijam tantas recargas.
+</li>
+<li>
+O 5G oferece um serviço potente, ágil e mais confiável do que o 4G, devido ao melhor uso da largura de banda e mais pontos de conexão. Com menos estresse na rede, os custos dos dados ficar abaixo dos valores para as redes 4G.
+</li>
+<li>
+O 5G pode suportar mais dispositivos que o 4G, pois expande as ondas de rádio disponíveis. Os problemas de congestionamento que levam à lentidão do serviço serão reduzidos assim que o 5G entrar em operação.
+</li>
+</ul>
+</label>
+<h2 id="conc">CONCLUSÃO</h2>
+<label class="texto">
+A tecnologia 5G emerge como um divisor de águas na conectividade móvel, promovendo não apenas uma velocidade incrível, mas também um novo horizonte de possibilidades. Com alcance expandido e latência reduzida, a 5G viabiliza a interconexão de dispositivos, impulsionando a Internet das Coisas e fortalecendo a evolução da Indústria 4.0. Seu impacto ecoa na sociedade, melhorando a qualidade das videoconferências, permitindo serviços de saúde à distância e catalisando o desenvolvimento de cidades inteligentes. O 5G ultrapassa barreiras, ao viabilizar o acesso à tecnologia em áreas remotas, promovendo a eficiência energética e capacitando uma nova era de inovação. Sua velocidade excepcional e capacidade de conexão massiva redefinem o modo como vivemos, trabalhamos e nos comunicamos, marcando o início de uma jornada transformadora rumo a um futuro conectado.
+</label>
+<h2>Fontes de pesquisa:</h2>
+
+Fontes: <a class="linkFonte" href="https://www.portaldaindustria.com.br/industria-de-a-z/5g-no-brasil/">https://www.portaldaindustria.com.br/industria-de-a-z/5g-no-brasil/</a>
+<br>
+        <a class="linkFonte" href="https://www.kaspersky.com.br/resource-center/threats/5g-pros-and-cons">https://www.kaspersky.com.br/resource-center/threats/5g-pros-and-cons</a>
+<br>
+Imagens: <a class="linkFonte" href="https://www.mundoconectado.com.br/mobile/preciso-trocar-o-chip-do-celular-para-usar-o-5g-puro/">https://www.mundoconectado.com.br/mobile/preciso-trocar-o-chip-do-celular-para-usar-o-5g-puro/</a>
+<br>
+<a class="linkFonte" href="https://www.mobilit.com.br/desafios-e-impactos-da-tecnologia-5g-para-empresas/">https://www.mobilit.com.br/desafios-e-impactos-da-tecnologia-5g-para-empresas/</a>
+</p>
+
+</div>
+<br>
+</div>
+</center>
+
+<div  class="footer" id="footerId">
+
+<label>Desenvolvido por Juan Cardoso - 08/2023 </label>
+
+</div>
+
+</body>
+
+</html>
+
+
+<script language="Javascript">
+
+function alterarTema ()
+{
+	var body = document.getElementById('bodyId');
+	var conteudo = document.getElementById('conteudoId');
+	var posHeader = document.getElementById('posHeaderId');
+	var linkSum = document.querySelectorAll('.linkSum');
+	var footer = document.getElementById('footerId');
+	var idTema = document.getElementById("slctTemaId").value;
+	
+	if (idTema == 1)
+	{
+		body.classList.remove('dark');
+		conteudo.classList.remove('dark');
+		posHeader.classList.remove('dark');	
+		linkSum.forEach(linkSum => {
+		  linkSum.classList.remove('dark');
+		});
+		footer.classList.remove('dark');
+	}
+	if (idTema == 2)
+	{
+		document.body.classList.toggle('dark');
+		conteudo.classList.toggle('dark');
+		posHeader.classList.toggle('dark');
+		linkSum.forEach(linkSum => {
+		  linkSum.classList.toggle('dark');
+		});
+		footer.classList.toggle('dark');
+	}
+}
+
+</script>
