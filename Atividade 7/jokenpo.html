@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jokenpô</title>
+</head>
+
+<style>
+
+body
+{
+	background-color: #ebfff4;
+	font-family: sans-serif;
+}
+.jokenpo
+{
+	position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	width: 500px;
+}
+button
+{
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	width: 60px;
+	height: 30px;
+}
+button:hover
+{
+	cursor: pointer;
+	background-color: #fffde8;
+}
+.footer
+{
+	position: absolute;
+	top: 95%;
+    left: 20%;
+	transform: translate(-50%, -50%);
+}
+
+</style>
+
+<body id="bodyId">
+<div class="jokenpo">
+    <h1>Jokenpô</h1>
+
+    <label id="lblMostrarId">Começe o jogo! Escolha um das opções abaixo e o computador jogará em seguida:</label>
+    <br><br>
+    <button id="btnPedraId" onclick="pedra()">Pedra</button> <button id="btnPapelId" onclick="papel()">Papel</button> <button id="btntesouraId" onclick="tesoura()">Tesoura</button>
+	</div>
+	<div class="footer">Desenvolvido por Juan Cardoso - 13/09/2023</div>
+</body>
+</html>
+
+<script language="Javascript" src="jokenpo.js"></script>
