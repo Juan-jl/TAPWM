@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Triângulos</title>
+<meta charset="UTF-8">
+</head>
+
+<style>
+
+@keyframes deslizar
+{
+	0% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+body
+{
+	font-family: sans-serif;
+	background-color: #ffd47d;
+}
+.lados
+{
+	border: 1px solid #000000;
+	width: 200px;
+	height: 260px;
+	background-color: #fffd7d;
+	border-radius: 5px;
+	
+}
+.numA, .numB, .numC, .label
+{
+	margin-top: 10px;
+}
+.visor
+{
+	margin-top: 20px;
+}
+.juan
+{
+	color: #3d3d3d;
+}
+
+</style>
+
+<body>
+<center>
+<br>
+<h1>Verificar se é um triângulo</h1>
+
+<form>
+<div class="lados">
+<br>
+<label class="label">Valor do lado A:</label>
+<input class="numA" type="text" id="idNumA" placeholder="Digite o valor de A">
+<br><br>
+<label class="label">Valor do lado B:</label>
+<input class="numB" type="text" id="idNumB" placeholder="Digite o valor de B">
+<br><br>
+<label class="label">Valor do lado C:</label>
+<input class="numC" type="text" id="idNumC" placeholder="Digite o valor de C">
+<br><br>
+<input type="reset" id="resetBtnId"> <input type="button" value="Verificar" onclick="verificar()">
+</div>
+</form>
+<br><br>
+<div class="divVisor">
+<label class="visor" id="visorId">Preencha os campos acima e clique em "Verificar"</label>
+</div>
+</center>
+<br><br>
+
+<label class="juan">Desenvolvido por Juan Cardoso - 09/2023</label>
+
+
+</body>
+</html>
+
+<script language="Javascript" src="triangulos.js"></script>
