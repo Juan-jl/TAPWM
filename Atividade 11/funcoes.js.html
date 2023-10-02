@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atividade 11</title>
+</head>
+
+<style>
+
+body
+{
+	font-family: sans-serif;
+	background-color: #c4ffb3;
+}
+
+.conteiner
+{
+	width: 200px;
+	height: 230px;
+	border: 2px solid black;
+	background: linear-gradient(to bottom right, #3498db, #1abc9c);
+}
+.numbDigNum
+{
+	margin-bottom: 10px;
+}
+.btnExecutarClass
+{
+	margin-top: 20px;
+}
+
+</style>
+
+<body>
+   
+<center>
+<h1>Funções JS</h1>
+
+<div class="conteiner">
+<form>
+
+<br>
+
+<label >Digite o 1º número:</label>
+<input class="numbDigNum" type="number" placeholder="Digite o 1º número" id="idTxtNum1">
+<label >Digite o 2º número:</label>
+<input class="numbDigNum" type="number" placeholder="Digite o 2º número" id="idTxtNum2">
+<label >Digite o 3º número:</label>
+<input class="numbDigNum" type="number" placeholder="Digite o 3º número" id="idTxtNum3">
+<label >Digite o 4º número:</label>
+<input class="numbDigNum" type="number" placeholder="Digite o 4º número" id="idTxtNum4">
+
+</div>
+<input type="reset" value="Limpar">
+</form>
+<input class="btnExecutarClass" type="button" value="Maior número" onclick="maiorNum()">
+<input class="btnExecutarClass" type="button" value="Ordem crescente" onclick="crescente()">
+
+</center>
+</body>
+</html>
+
+<script src="funcoes.js"></script>
