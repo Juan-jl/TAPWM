@@ -1,0 +1,87 @@
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Atividade 13</title>
+
+</head>
+
+<style>
+
+body
+{
+	background-color: #94c4ff;
+}
+.divArea
+{
+	border: 2px solid #000000;
+	text-align: center;
+	height: 330px;
+	width: 200px;
+	
+	display: inline-block;
+    vertical-align: top;
+}
+.divContas
+{
+	border: 2px solid #000000;
+	text-align: center;
+	height: 330px;
+	width: 200px;
+	
+	display: inline-block;
+    vertical-align: top;
+}
+
+</style>
+
+<body>
+<center>
+<h1>Atividade 13</h1>
+
+<div class="divArea">
+
+<h3>Cálculo de área</h3>
+
+<label>Digite o valor da base (x):
+<br>
+<input type="number" placeholder="Base" id="baseId">
+<br><br>
+<label>Digite o valor da altura (y):
+<br>
+<input type="number" placeholder="Altura" id="alturaId">
+<br><br>
+<input type="button" onclick="calcAreaClick();" value="Cálcular área">
+</div>
+
+<div class="divContas">
+
+<h3>Conta bancária</h3>
+
+<label>Nome do Correntista:</label>
+<input type="text" id="nomeCorrentistaId">
+<br><br>
+<label>Nome do banco:</label>
+<input type="text" id="nomeBancoId">
+<br><br>
+<label>Número da conta:</label>
+<input type="text" id="numeroContaId">
+<br><br>
+<label>Saldo:</label>
+<input type="number" id="saldoId">
+<br><br>
+
+<input type="button" onclick="enviarDadosClick()" value="Enviar dados"><input type="button" onclick="verificiarDadosClick()" value="Verificar dados">
+
+</div>
+
+</center>
+
+<label>Juan Cardoso - 10/2023</label>
+
+</body>
+
+</html>
+
+<script language="Javascript" src="Atividade13.js"></script>
