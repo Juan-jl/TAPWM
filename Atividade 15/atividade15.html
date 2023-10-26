@@ -1,0 +1,94 @@
+<html lang="PT-BR">
+
+<head>
+
+<title>Atividade 15 | Janelas</title>
+<meta charset="UTF-8">
+
+</head>
+
+<style>
+
+body
+{
+	font-family: sans-serif;
+}
+.ContainerImagens
+{
+	position: relative;
+	width:800px;
+	margin-top: 30px;
+}
+.imgSala
+{
+	width: 800px;
+    top: 0;
+    left: 0;
+}
+.imgJanela
+{
+	position: absolute;
+    top: 0;
+    left: 0;
+	width: 235px;
+	margin-left: 305px;
+	margin-top: 39px;
+	cursor: pointer;
+}
+.divTv
+{
+	position: absolute;
+    top: 0;
+    left: 0;
+	margin-top: 242px;
+	margin-left: 70px;
+	font-size: 22px;
+	width: 127px;
+	height: 71px;
+	color: #efff63;
+	font-weight: bold;
+}
+.boxEasterEgg
+{
+	position: absolute;
+    top: 0;
+    left: 0;
+	width: 69px;
+	height: 45px;
+	margin-left: 650px;
+	margin-top: 375px;
+	cursor: pointer;
+}
+.imgC
+{
+	width: 130px;
+	height: 71px;
+	margin-top: -50px;
+	display: none;
+}
+
+</style>
+
+<body>
+<center>
+
+<div class="ContainerImagens">
+
+<img class="imgSala" src="sala.jpg">
+<img class="imgJanela" id="imgJanelaid" onmouseout="fechar()" onmouseover="abrir()" onclick="quebrar()" src="jf.png">
+<div class="divTv">
+<label class="labelTv" id="labelTvId">Abra<br>a janela</label>
+<img class="imgC" id="ImgEasterEggId" src="calopcita.jpg">
+</div>
+<div onclick="easterEgg ()" class="boxEasterEgg"></div>
+</div>
+
+</center>
+<br><br>
+<label>Desenvolvido por Juan Cardoso - 10/2023
+
+</body>
+
+</html>
+
+<script language="Javascript" src="atividade15.js"></script>
