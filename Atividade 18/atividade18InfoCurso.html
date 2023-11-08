@@ -1,0 +1,58 @@
+<script language="Javascript" src="atividade18.js"></script>
+
+<html lang="pt-br">
+
+<head>
+
+<title>Atividade 18</title>
+<meta charset="UTF-8">
+
+</head>
+
+<style>
+
+body
+{
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+}
+.conteiner
+{
+    width: 93%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.btnFechar
+{
+	width: 24px;
+	height: 20px;
+	cursor: pointer;
+	border: none;
+	background-color: #a60303;
+	color: #ffffff;
+	border-radius: 10px;
+}
+.btnFechar:hover
+{
+	background-color: #e30202;
+}
+
+</style>
+
+<body>
+<center>
+<h2>Curso de <script>document.write(window.localStorage['nomeCurso']);</script></h2>
+</center>
+<div class="conteiner">
+<input type="button" class="btnFechar" onclick="window.close()" value="X">
+<br><br>
+<script>document.write(window.localStorage['infoCurso']);</script>
+</div>
+<br>
+<label>Desenvolvido por Juan Cardoso - 11/2023</label>
+</body>
+
+</html>
