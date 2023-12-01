@@ -1,0 +1,24 @@
+<script language="Javascript">
+//Atividade 23 - Juan Cardoso
+
+procura (prompt("Digite um texto").normalize('NFD'));
+
+function procura (texto)
+{
+	var contador = 0;
+	for (i=0; i < texto.length; i++)
+	{
+		if (texto[i].toLowerCase() == "a")
+		{
+			contador++;
+		}
+	}
+	
+	console.log('Texto recebido: "' + texto + '"');
+	console.log('\nQuantidade de letras "A" encontradas: ' + contador);
+}
+
+console.log("\n\n(Desenvolvido por Juan Cardoso - 12/2023)");
+
+document.write("Abra o console");
+</script>
